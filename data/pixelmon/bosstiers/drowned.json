@@ -1,0 +1,38 @@
+{
+  "id": "drowned",
+  "name": "enum.trainerBoss.drowned",
+  "canRandomlySpawn": false,
+  "weight": 0,
+  "color": {
+    "r": 103, "g": 201, "b": 164, "a": 255
+  },
+  "modelScaleFactor": 3,
+  "isMega": false,
+  "megaStoneObtainChance": 0,
+  "megaStoneRepeatChance": 0,
+  "alwaysPalette": "drowned",
+  "levelMultiplier": 1.5,
+  "extraLevels": 50,
+  "dropSets": [
+    {
+      "chance": 1,
+      "quantity": 1,
+      "drops": [
+        {
+          "weight": 1,
+          "name": "",
+          "item": "pixelmon:ability_patch",
+          "commands": [],
+          "ephemeral": false
+        },
+        {
+          "weight": 5,
+          "name": "$500",
+          "item": "minecraft:gold_nugget",
+          "commands": ["givemoney @p 500"],
+          "ephemeral": true
+        }
+      ]
+    }
+  ]
+}
